@@ -71,6 +71,11 @@ footer {
     width: 100%;
 }
 
+/* Add style for the footer text */
+footer p {
+    margin: 0; /* Remove the default margin for the paragraph */
+}
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
     nav ul {
